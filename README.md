@@ -40,4 +40,4 @@ Welcome to my AWS Cloud Architecture portfolio. This repository contains hands-o
 **Overview:** Wrote and deployed a declarative template to automatically provision and manage compute resources.
 * **Services Used:** AWS CloudFormation, Amazon EC2, YAML
 * **Key Features:** Automated resource provisioning, parameter-based AMI selection, and one-click stack teardown for cost control.
-* 📁 **[View Project Details & Proof](./03-infrastructure-as-code)**
+* 📁 **[View Project Details & Proof](./infrastructure-as-code)**
