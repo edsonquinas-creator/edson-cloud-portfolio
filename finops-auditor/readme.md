@@ -10,7 +10,7 @@
 ### 📸 Proof of Execution
 
 **1. Zero-Dollar Budget Constraint Active:**
-![AWS Budget](budget.png)
+![AWS Budget](budgets.png)
 
 **2. Cost Explorer Usage Analysis:**
-![AWS Cost Explorer](cost-explorer.png)
+![AWS Cost Explorer](costexplorer.png)
