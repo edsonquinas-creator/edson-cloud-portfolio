@@ -24,7 +24,7 @@ Welcome to my AWS Cloud Architecture portfolio. This repository contains hands-o
 **Overview:** Implemented strict financial guardrails to maintain a zero-cost infrastructure footprint within the AWS Free Tier.
 * **Services Used:** AWS Budgets, AWS Cost Anomaly Detection, AWS Cost Explorer
 * **Key Features:** Automated $0 budget alerts, machine-learning anomaly detection, and granular cost tracking.
-* 📁 **[View Project Details & Proof](./finops-auditor)**
+* 📁 **[View Project Details & Proof](/finops-auditor)**
 
 ---
 
