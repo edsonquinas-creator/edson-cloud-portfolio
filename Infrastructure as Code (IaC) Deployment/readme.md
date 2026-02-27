@@ -9,7 +9,7 @@
 * Executed a one-click stack deletion to automatically terminate the instance and clean the environment, demonstrating strict FinOps control.
 
 ### 📜 The Code
-The declarative code used to build this architecture is included in this directory: `infrastructure.yaml
+The declarative code used to build this architecture is included in this directory: **[infrastructure.yaml](infrastructure.yaml)**
 
 ### 📸 Proof of Execution
 
