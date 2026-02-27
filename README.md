@@ -32,7 +32,7 @@ Welcome to my AWS Cloud Architecture portfolio. This repository contains hands-o
 **Overview:** Architected a monitoring solution that tracks compute performance and triggers automated emergency alerts.
 * **Services Used:** Amazon CloudWatch, Amazon SNS, Amazon EC2
 * **Key Features:** Custom CloudWatch metric alarms, SNS email subscription routing, and simulated CPU stress-test validation.
-* 📁 **[View Project Details & Proof]( /Monitoring & Alerting System)**
+* 📁 **[View Project Details & Proof](./Monitoring%20%26%20Alerting%20System)**
 
 ---
 
