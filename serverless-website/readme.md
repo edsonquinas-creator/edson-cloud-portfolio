@@ -12,7 +12,7 @@
 * **Free Tier Optimized:** Built entirely within the AWS Free Tier limits, utilizing serverless billing (pay-only-for-what-you-use) rather than provisioning always-on EC2 web servers.
 
 ### 📂 Repository Contents
-* `index.html`: The source code for the static website deployed to the S3 bucket origin.
+* [index.html](./index.html): The source code for the static website deployed to the S3 bucket origin.
 
 ---
 *This project demonstrates a fundamental understanding of decoupled cloud architecture, global content delivery, and the principle of least privilege using AWS IAM and bucket policies.*
