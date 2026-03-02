@@ -1,4 +1,4 @@
-# 🌐 Project 5: Custom VPC Architecture & Secure Networking
+# 🌐 Project: Custom VPC Architecture & Secure Networking
 
 **Objective:** Architect a secure, highly available Virtual Private Cloud (VPC) from scratch, demonstrating strict network isolation and routing controls, followed by a complete infrastructure teardown.
 
