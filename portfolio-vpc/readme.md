@@ -43,7 +43,7 @@
 
 **7. Private Route Table & Subnet Association:**
 ![Private RT](private.rt.png)
-![Private RT Routes](private.rt.updates.png)
+![Private RT Routes](private.rt.update.png)
 ![Private Association](private.association.png)
 
 **8. Successful Routing Verification:**
