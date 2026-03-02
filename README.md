@@ -51,4 +51,4 @@ Welcome to my AWS Cloud Architecture portfolio. This repository contains hands-o
 
 **Overview:** Provisioned a custom AWS environment featuring both public-facing and fully isolated private subnets. Established secure outbound internet access for private resources using a NAT Gateway, mapped out the traffic flow with custom Route Tables, and executed a precise infrastructure teardown to maintain a strict zero-cost cloud footprint.
 
-**[View Project Details & Proof](./portfolio-vpc)**
+* 📁 **[View Project Details & Proof](./portfolio-vpc)**
