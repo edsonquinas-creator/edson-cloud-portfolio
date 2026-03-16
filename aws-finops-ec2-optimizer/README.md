@@ -18,3 +18,20 @@ The script programmatically scans the AWS environment (eu-west-2) to identify an
 * Eliminates weekend CapEx/OpEx drain caused by human error (forgetting to turn off servers).
 * Demonstrates practical application of cloud elasticity (paying only for what you use).
 * Replaces manual IT Service Desk intervention with a scalable, £0.00 cost automated script.
+
+* ## 📸 Proof of Execution
+<details>
+  <summary>Click to view step-by-step execution logs</summary>
+
+  ### 1. Provisioning & Security
+  * **Environment Setup:** Launching the target EC2 instance with specific FinOps tags.
+  * **IAM Governance:** Creating a least-privilege IAM user and generating secure access keys.
+  
+  ### 2. Automation in Action
+  * **The "Kill Shot":** Execution of the Python script via CloudShell, successfully identifying the 'Dev' instance and issuing the stop command.
+  
+  ### 3. Lifecycle Completion
+  * **Verified State:** Confirmation of the instance moving to a 'Stopped' state, followed by a 'Terminated' state to ensure a zero-cost footprint.
+
+  *(Screenshots available in the /screenshots folder)*
+</details>
