@@ -19,19 +19,36 @@ The script programmatically scans the AWS environment (eu-west-2) to identify an
 * Demonstrates practical application of cloud elasticity (paying only for what you use).
 * Replaces manual IT Service Desk intervention with a scalable, £0.00 cost automated script.
 
-* ## 📸 Proof of Execution
-<details>
-  <summary>Click to view step-by-step execution logs</summary>
+### 📸 Proof of Execution
 
-  ### 1. Provisioning & Security
-  * **Environment Setup:** Launching the target EC2 instance with specific FinOps tags.
-  * **IAM Governance:** Creating a least-privilege IAM user and generating secure access keys.
-  
-  ### 2. Automation in Action
-  * **The "Kill Shot":** Execution of the Python script via CloudShell, successfully identifying the 'Dev' instance and issuing the stop command.
-  
-  ### 3. Lifecycle Completion
-  * **Verified State:** Confirmation of the instance moving to a 'Stopped' state, followed by a 'Terminated' state to ensure a zero-cost footprint.
+**1. Targeted Instance Creation & Resource Tagging:**
+Provisioning the EC2 instance within the Free Tier and applying the specific `Environment: Dev` tag for script targeting.
+![Instance Creation](1.png)
 
-  *(Screenshots available in the /screenshots folder)*
-</details>
+**2. Verified Running State:**
+Confirming the instance is active and consuming resources prior to automation execution.
+![Instance Running](2.png)
+
+**3. IAM Governance Setup:**
+Creating a dedicated IAM user with specific programmatic access to ensure secure script execution.
+![IAM User Creation](3.png)
+
+**4. Secure Access Key Generation:**
+Provisioning the necessary credentials for the Boto3 SDK to communicate with the AWS API.
+![Key Creation](4.png)
+
+**5. Automation Script Execution:**
+Triggering the Python logic via AWS CloudShell to scan the region for idle resources.
+![Script Run](5.png)
+
+**6. FinOps Waste Detection & Success:**
+The script successfully identifies the tagged instance and issues the stop command to eliminate OpEx waste.
+![Waste Stopped](6.png)
+
+**7. Verified Stopped State:**
+Confirmation that the instance has successfully moved to a stopped state, halting compute billing.
+![Instance Stopped](7.png)
+
+**8. Final Resource Termination:**
+Executing a full teardown of the resource to maintain a zero-cost infrastructure footprint.
+![Termination](8.png)
