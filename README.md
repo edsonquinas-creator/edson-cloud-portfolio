@@ -44,10 +44,9 @@ Welcome to my AWS Cloud Architecture portfolio. This repository contains hands-o
 
   ---
 
-  🛑 Project 6: Automated FinOps Cost Optimization Engine
-Overview: Engineered an automated Python script to enforce cloud right-sizing and eliminate weekend OpEx waste by programmatically shutting down idle development servers.
-
-Services Used: Python, AWS Boto3 SDK, Amazon EC2, AWS CloudShell
-Key Features: Tag-based resource targeting, programmatic API execution, and automated cost-control governance.
-📁 **[View Project Details & Proof](./aws-finops-ec2-optimizer)
+## 💰 Project 6: Python-Driven FinOps Automation
+**Overview:** Engineered an automated cost-optimization solution using Python to programmatically identify and shut down idle development resources, enforcing cloud elasticity and eliminating weekend OpEx waste.
+* **Services Used:** Python, AWS Boto3 SDK, Amazon EC2, AWS IAM
+* **Key Features:** Programmatic resource targeting via tags, automated lifecycle management, and strict cost-governance enforcement.
+*📁 **[View Project Details & Proof](./aws-finops-ec2-optimizer)**
 
