@@ -41,3 +41,13 @@ Welcome to my AWS Cloud Architecture portfolio. This repository contains hands-o
 * **Services Used:** AWS Budgets, AWS Cost Anomaly Detection, AWS Cost Explorer
 * **Key Features:** Automated $0 budget alerts, machine-learning anomaly detection, and granular cost tracking.
 * 📁 **[View Project Details & Proof](./finops-auditor)**
+
+  ---
+
+  🛑 Project 6: Automated FinOps Cost Optimization Engine
+Overview: Engineered an automated Python script to enforce cloud right-sizing and eliminate weekend OpEx waste by programmatically shutting down idle development servers.
+
+Services Used: Python, AWS Boto3 SDK, Amazon EC2, AWS CloudShell
+Key Features: Tag-based resource targeting, programmatic API execution, and automated cost-control governance.
+📁 **[View Project Details & Proof](./aws-finops-ec2-optimizer)
+
