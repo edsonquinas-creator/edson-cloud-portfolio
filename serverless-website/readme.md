@@ -2,6 +2,9 @@
 
 **Objective:** Deploy a highly available, secure, and globally distributed static website using native AWS serverless architecture. 
 
+## 🗺️ Architecture Diagram
+![Serveless Static website Architecture](serverless-static-website-architecture.png)
+
 ### 🛠️ Architecture & Services
 * **Amazon S3 (Simple Storage Service):** Acts as the origin server, hosting the foundational `index.html` web files.
 * **Amazon CloudFront:** A global Content Delivery Network (CDN) that caches the website content in edge locations worldwide for ultra-low latency.
