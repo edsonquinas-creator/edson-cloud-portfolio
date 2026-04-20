@@ -3,7 +3,7 @@
 **Objective:** Architect a real-time monitoring and alerting system to automatically detect and report compute performance anomalies.
 
 ## 🗺️ Architecture Diagram
-!Noc ALlerting Architecture](noc-alerting-architecture.png)
+![NOC Alerting Architecture](noc-alerting-architecture.png)
 
 ### 🛠️ Architecture & Execution
 * Provisioned an **Amazon EC2** instance to serve as the baseline monitored target.
