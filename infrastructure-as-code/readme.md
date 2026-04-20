@@ -4,8 +4,7 @@
 
 
 ## 🗺️ Architecture Diagram
-iac-cloudformation-architecture-v5.png
-
+![IaC Architecture](iac-cloudformation-architecture.png)
 
 ### 🛠️ Architecture & Execution
 * Wrote a custom **YAML** template defining an Amazon EC2 instance and its configuration parameters.
