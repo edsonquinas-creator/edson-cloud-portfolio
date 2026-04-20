@@ -1,5 +1,8 @@
 # ☁️ AWS FinOps: Automated EC2 Cost Optimization
 
+## 🗺️ Architecture Diagram
+![FinOps Automated EC2](finops-automated-ec2-cost-optimisation-architecture.png)
+
 ## 📊 The Business Problem
 In cloud environments, a common source of **OpEx waste** occurs when development and testing servers (Amazon EC2) are left running outside of business hours. Paying for idle compute capacity over the weekend directly violates cloud right-sizing and cost-efficiency principles.
 
