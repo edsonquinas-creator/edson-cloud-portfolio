@@ -2,6 +2,11 @@
 
 **Objective:** Automate the provisioning and teardown of AWS infrastructure using declarative code to ensure repeatable, consistent, and error-free deployments.
 
+
+## 🗺️ Architecture Diagram
+iac-cloudformation-architecture-v5.png
+
+
 ### 🛠️ Architecture & Execution
 * Wrote a custom **YAML** template defining an Amazon EC2 instance and its configuration parameters.
 * Deployed the template via **AWS CloudFormation** to orchestrate the automated creation of the resources without manual console interaction.
