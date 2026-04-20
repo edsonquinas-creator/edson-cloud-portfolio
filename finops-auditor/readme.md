@@ -2,6 +2,9 @@
 
 **Objective:** Implement strict financial guardrails to maintain a zero-cost infrastructure footprint within the AWS Free Tier.
 
+## 🗺️ Architecture Diagram
+![FinOps Architecture](finops-cost-governance-architecture.png)
+
 ### 🛠️ Architecture & Execution
 * Configured **AWS Budgets** with a strict $0 monthly limit to trigger automated email alerts to administrators.
 * Enabled **AWS Cost Anomaly Detection** to utilize machine learning for identifying unusual spend patterns across all services.
