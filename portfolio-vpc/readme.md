@@ -3,6 +3,9 @@
 **Objective:** Architect a secure, highly available Virtual Private Cloud (VPC) from scratch, demonstrating strict network isolation and routing controls, followed by a complete infrastructure teardown.
 
 
+## 🗺️ Architecture Diagram
+![VPC Architecture](vpc-architecture.png)
+
 
 ### 🛠️ Architecture & Execution
 * Provisioned a custom **Amazon VPC** with a dedicated CIDR block.
